@@ -1,0 +1,33 @@
+@urlBase=http://localhost:5000
+
+###
+GET {{urlBase}}/ping
+
+###
+GET {{urlBase}}/filmes
+
+###
+GET {{urlBase}}/filmes?ignorar=elenco,diretor
+
+###
+GET {{urlBase}}/filmes/FIL005
+
+###
+GET {{urlBase}}/filmes/FIL009?ignorar=diretor,elenco,teste,sinopse
+
+
+
+###
+GET http://localhost:5000/filmes/FIL001?ignorar=elenco,ator,diretor
+
+###
+GET http://localhost:5000/filmes/FIL001?ignorar=diretor
+
+
+
+
+###
+GET http://localhost:5000/filmes/FIL005?ignorar=alguma-coisa&nome=Flavio&idade=90
+
+###
+GET http://localhost:5000/filmes/oi
