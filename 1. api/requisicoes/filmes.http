@@ -10,7 +10,7 @@ GET {{urlBase}}/filmes
 GET {{urlBase}}/filmes?ignorar=elenco,diretor
 
 ###
-GET {{urlBase}}/filmes/FIL003
+GET {{urlBase}}/filmes/FIL005
 
 ###
 GET {{urlBase}}/filmes/FIL009?ignorar=diretor,elenco,teste,sinopse
