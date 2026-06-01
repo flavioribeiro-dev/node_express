@@ -1,10 +1,31 @@
-GET http://localhost:5000/filmes
-
 ###
 GET http://localhost:5000/ping
 
 ###
-GET http://localhost:5000/filmes/FIL006
+GET http://localhost:5000/filmes
+
+###
+GET http://localhost:5000/filmes?ignorar=elenco,diretor
+
+###
+GET http://localhost:5000/filmes/FIL003
+
+###
+GET http://localhost:5000/filmes/FIL009?ignorar=diretor,elenco,teste,sinopse
+
+
+
+###
+GET http://localhost:5000/filmes/FIL001?ignorar=elenco,ator,diretor
+
+###
+GET http://localhost:5000/filmes/FIL001?ignorar=diretor
+
+
+
+
+###
+GET http://localhost:5000/filmes/FIL005?ignorar=alguma-coisa&nome=Flavio&idade=90
 
 ###
 GET http://localhost:5000/filmes/oi
